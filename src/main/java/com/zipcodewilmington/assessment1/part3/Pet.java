@@ -14,7 +14,7 @@ public abstract class Pet implements Animal {
      * by default, pet has age of 0; name of "";
      */
     public Pet() {
-        this.name="";
+        this.name=this.getClass().getSimpleName()+" name";
         this.age=0;
     }
 
@@ -31,7 +31,7 @@ public abstract class Pet implements Animal {
      * @param age age of this pet
      */
     public Pet(int age) {
-        this.name="";
+        this.name=this.getClass().getSimpleName()+" name";
         this.age=age;
     }
 
