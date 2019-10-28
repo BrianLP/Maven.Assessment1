@@ -9,8 +9,7 @@ public class Jumper {
     public int jumps(int k, int j) {
         int baseJumps = 0;
 
-
-        for (int i = 1; i > k; i++) {
+        for (int i = 1; i < k; i++) {
 
 
             if (k / (i * j) >= 1) {
