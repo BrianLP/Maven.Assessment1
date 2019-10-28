@@ -47,7 +47,7 @@ public class MultiplesDeleter {
     public Integer[] deleteMultiplesOf3(Integer[] ints) {
         ArrayList<Integer> arrList = new ArrayList<>(Arrays.asList(ints));
         for (int i = 0; i < arrList.size(); i++ ){
-            if (arrList.get(i) % 3 == 0) {
+            if ((float)arrList.get(i) % 3 == 0) {
                 arrList.remove(arrList.get(i));
             }
 

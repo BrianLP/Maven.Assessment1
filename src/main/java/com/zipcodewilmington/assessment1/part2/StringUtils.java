@@ -52,7 +52,7 @@ public class StringUtils {
      */
     public static String reverseFirstWordThenCamelCase(String sentence){
         return reverseFirstWord(sentence).substring(0,1).toUpperCase()+reverseFirstWord(sentence).substring(1);
-        
+
     }
 
 
